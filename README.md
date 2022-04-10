@@ -4,7 +4,7 @@
 
 🔴 Let’s Build Cryptopunks 2.0 NFT with ReactJS | Web3.JS | Ethereum | Solidity & Truffle 
 
-From Youtube Channel called 'Naz Dumanskyy', "https://www.youtube.com/watch?v=UoA6eALKS6g" (posting date : 29.Jan.2022)
+From Youtube Channel called 'Naz Dumanskyy', "https://www.youtube.com/watch?v=UoA6eALKS6g" (Posting date : 29.Jan.2022)
 
 1) 프로젝트 제목
 2) 프로젝트 설명
