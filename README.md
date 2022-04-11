@@ -54,7 +54,7 @@ $ npm install @openzeppelin/contracts
 
 # Contracts > CryptoCoders.sol
 
-(참고) OpenZepplin(Github)  
+* OpenZepplin(Github)  
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol
 
 ```
