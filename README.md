@@ -41,6 +41,7 @@ $ npm install @openzeppelin/contracts
 
 * Minting Function 
 
+```
     function mint(string memory _coder) public {
         // Color 
         require(!_coderExists[_coder]);
@@ -49,13 +50,14 @@ $ npm install @openzeppelin/contracts
         _mint(msg.sender, _id);
         _coderExists[_coder] = true;
     }
+```
 
 # Contracts > CryptoCoders.sol
 
 (참고) OpenZepplin(Github)  
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol
 
-~~~
+```
 pragma solidity ^0.8.0;
 
 import "../client/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -93,4 +95,4 @@ contract CryptoCoder is ERC721, ERC721Enumerable {
         return super.supportsInterface(interfaceId);
     }
 }
-~~~
+```
