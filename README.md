@@ -29,7 +29,7 @@ https://trufflesuite.com/ganache/
 4. OpenZepplin. 
 https://github.com/OpenZeppelin/openzeppelin-contracts
 
-    $ npm install @openzeppelin/contracts
+₩₩₩$ npm install @openzeppelin/contracts
 
 # 개발 화면
 
@@ -53,7 +53,7 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
 (참고) OpenZepplin(Github)  
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol
 
-
+~~~
 pragma solidity ^0.8.0;
 
 import "../client/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -91,4 +91,4 @@ contract CryptoCoder is ERC721, ERC721Enumerable {
         return super.supportsInterface(interfaceId);
     }
 }
-
+~~~
