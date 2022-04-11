@@ -29,7 +29,9 @@ https://trufflesuite.com/ganache/
 4. OpenZepplin. 
 https://github.com/OpenZeppelin/openzeppelin-contracts
 
-₩₩₩$ npm install @openzeppelin/contracts
+```
+$ npm install @openzeppelin/contracts
+```
 
 # 개발 화면
 
