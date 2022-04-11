@@ -1,13 +1,19 @@
-# CryptoCoders
-#blockchain #react.js
-
+# CryptoCodersCancel changes
+React.js로 구현하는 Ethereum Dapp
 
 🔴 Let’s Build Cryptopunks 2.0 NFT with ReactJS | Web3.JS | Ethereum | Solidity & Truffle 
 
 From Youtube Channel called 'Naz Dumanskyy', "https://www.youtube.com/watch?v=UoA6eALKS6g" (Posting date : 29.Jan.2022)
 
-1) 프로젝트 제목
-2) 프로젝트 설명
+* 개발 순서
+***
+- Solidty와 Truffle을 사용하여 ERC721 스마트컨트랙트를 작성한다.
+- Ganache를 사용하여 local Ethereum Blockain을 실행한다.
+- Ganache에 스마트컨트랙트를 배포한다.
+- React.js을 사용하여 프론트엔드 앱을 구축하고 Metamask와 연결한다.
+- 민팅(Minting)기능을 추가하여 React.js 앱을 완성한다.
+
+* 개발 화면
 - 어플리케이션의 동작
 - 사용한 기술의 선택 이유
 - 이슈 혹은 향후 계획
