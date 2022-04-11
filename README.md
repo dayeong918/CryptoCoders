@@ -1,4 +1,4 @@
-# CryptoCodersCancel changes
+# CryptoCoders
 React.js로 구현하는 Ethereum Dapp
 
 🔴 Let’s Build Cryptopunks 2.0 NFT with ReactJS | Web3.JS | Ethereum | Solidity & Truffle 
@@ -14,21 +14,21 @@ From Youtube Channel called 'Naz Dumanskyy', "https://www.youtube.com/watch?v=Uo
 
 # Installation
 1. Truffle
-
 >스마트 계약을 사용하기 시작하는 데 필요한 기본적인 모든 것이 포함되어 있다.
 https://trufflesuite.com/boxes/react/index.html
 
     npx truffle unbox react
 
 2. Metamask
-"Install Metamask for Chrome"
+"Install Metamask for Chrome". 
 https://metamask.io/download.html
 
-3. Ganache
+3. Ganache. 
 https://trufflesuite.com/ganache/
 
-4. OpenZepplin
+4. OpenZepplin. 
 https://github.com/OpenZeppelin/openzeppelin-contracts
+
     $ npm install @openzeppelin/contracts
 
 # 개발 화면
@@ -37,8 +37,8 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
 
 # 함수(function)
 
-* 민팅(minting) 
-''''
+* Minting Function 
+
     function mint(string memory _coder) public {
         // Color 
         require(!_coderExists[_coder]);
@@ -47,12 +47,13 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
         _mint(msg.sender, _id);
         _coderExists[_coder] = true;
     }
-''''
 
-OpenZepplin(Github)
+# Contracts > CryptoCoders.sol
+
+(참고) OpenZepplin(Github)  
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol
 
-''''
+
 pragma solidity ^0.8.0;
 
 import "../client/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -90,4 +91,4 @@ contract CryptoCoder is ERC721, ERC721Enumerable {
         return super.supportsInterface(interfaceId);
     }
 }
-''''
+
